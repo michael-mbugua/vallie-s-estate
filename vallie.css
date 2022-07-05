@@ -1,0 +1,147 @@
+div{
+    font-family: 'sans-serif','Space Grotesk';
+}
+.logo{
+    font-size: x-large;
+    font-family: 'Oleo Script', 'sans-serif','space grotesk';
+    text-transform: capitalize;
+    width: 20%;
+}
+.head{
+    height: 100%;
+    width: 100%;
+    font-family: 'Space Grotesk', sans-serif;
+    justify-content: space-between;
+}
+h3,h2,h4,h5{
+    color: #2549D3;
+}
+.links{
+    justify-content: space-around;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    font-size: large;
+}
+.links:link,.links:visited{
+    background-color: white;
+    color: black;
+    text-align: center;
+    display: flex;
+    text-decoration: none;
+}
+.links:hover,.links:active{
+    background-color: white;
+    color: black;
+}
+
+.section1_cont{
+    float: left;
+}
+
+
+.section1_img{
+    float: right;
+}
+.nav_bar{
+    flex-direction: row;
+    padding: 30px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin: 10px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.733);
+    
+}
+.linking{
+    list-style-type:none;
+    text-decoration: none;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-transform: capitalize;
+    word-spacing: 20%;
+    text-align: inl;
+    
+}
+button{
+    width: 17%;
+    text-transform: capitalize;
+    font-size: larger;
+    background-color: #0F298B;
+    color: white;
+    padding: 12px 0px ;
+    border-radius: 10px;
+    border: none;
+}
+
+.button{
+    float: right;
+    background-color: #2549D3;
+    height: 40px;
+    width: 100px;
+    color: white;
+    font-size: medium;
+    border-radius: 10px;
+    border: none;
+}
+.section3_img{
+    padding: 10px 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+    
+
+.section5_info{
+    text-align: center;
+}
+.section5_img{
+    display: flex;
+    padding: 4rem 6rem;
+    align-items: center;
+
+}
+
+.sec6header{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+
+}
+.customer_review{
+    display: flex;
+    flex-direction: row;
+
+}
+.head1{
+    color: white;
+}
+.footer>h4{
+    color: white;
+}
+.footer_links{
+    list-style-type: none;
+}
+
+.footer{
+    height: 60vh;
+    background-color: #0F298B;
+    display: grid;
+
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+    grid-gap:30px;
+    color:white;
+    text-transform: capitalize;
+}
+.footerstart>p{
+    text-transform: none;
+    width: 100%;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.footerstart>h2{
+    font-family: 'Oleo Script', cursive !important;
+}
