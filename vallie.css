@@ -1,11 +1,14 @@
 div{
     font-family: 'sans-serif','Space Grotesk';
+    width: 100%;
 }
 .logo{
+    display: inline;
+    text-align: start;
     font-size: x-large;
     font-family: 'Oleo Script', 'sans-serif','space grotesk';
     text-transform: capitalize;
-    width: 20%;
+    width: 100%;
 }
 .head{
     height: 100%;
@@ -16,65 +19,186 @@ div{
 h3,h2,h4,h5{
     color: #2549D3;
 }
-.links{
-    justify-content: space-around;
-    text-decoration: none;
-    text-transform: capitalize;
-    color: black;
-    font-size: large;
-}
-.links:link,.links:visited{
-    background-color: white;
-    color: black;
-    text-align: center;
+
+/* sections1 styles........................................................'''''''''''''''' */
+.section1{
     display: flex;
-    text-decoration: none;
+    padding-right: 10%;
+    flex-direction: column;
 }
-.links:hover,.links:active{
-    background-color: white;
-    color: black;
+.section1_cont{
+    flex-direction: column;
+    width: 100%;
+}
+.section1254{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    padding-top: 0%;
+}
+.help{
+    flex-direction: column;
 }
 
-.section1_cont{
+.section4{
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+
+.subsection1{
+    height: 100vh;
+}
+.subsection1contents{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 8rem;
+}
+.subsection1contentsupperleft{
+    width: 99%;
+}
+.subsection1contentsupperleft>h2{
+    font-size: 50px;
+    color: #0F298B;
+    margin-bottom: 2%;
+}
+.subsection1contentsupperleft>p{
+    font-size: x-large;
+    width: 90%;
+    margin-top: 0%;
+    margin-bottom: 10%;
+}
+.iconz{
+    width: 100%;
+    display: flex;
+    height: 10%;
+    align-items: center;
+}
+.iconz>button{
+    margin: px;
+    width: 130px;
+    color: white;
+    background-color: #2549D3;
+    border-radius: 10px;
+    height: 50px;
+    border: none;
+    font-size: larger;
+    text-transform: capitalize;
+}
+.subsection1contentsupper{
+    display: flex;
+    width: 100%;
+}
+.subsection1contentsupperright>img{
+    object-fit: contain;
+    width: 100%;
+}
+a.link{
+    text-decoration: none;
+}
+a.visited{
+    text-decoration: none;
+
+}
+a.hover{
+    text-decoration: none;
+
+}
+a.active{
+    text-decoration: none;
+}
+
+
+
+
+
+
+.left{
     float: left;
+    width: 40%;
+}
+.right{
+    align-items: center;
+    
+}
+.head_info{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.p1{
+    display: flex;
+    flex-direction: column;
+    padding-top: 0%;
+    margin-top: 0%;
 }
 
 
 .section1_img{
-    float: right;
+    align-items: center;
+}
+.nav_links{
+    /* display: inline; */
+    text-align: center;
+    
+
+}
+.linking{
+    padding: 10px;
+    display: inline-block;
+    text-transform: capitalize;
+    flex-direction: row;
+    text-align: center;
+}
+.nav_links li{
+    list-style-type: none;
+    display: inline-block;
 }
 .nav_bar{
     flex-direction: row;
-    padding: 30px 40px;
     display: flex;
     align-items: center;
     justify-content: space-around;
     width: 100%;
-    margin: 10px;
     border-bottom: 1px solid rgba(128, 128, 128, 0.733);
     
 }
-.linking{
-    list-style-type:none;
-    text-decoration: none;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    text-transform: capitalize;
-    word-spacing: 20%;
-    text-align: inl;
-    
+.button_GS{
+    padding: 10px 20px;
 }
-button{
-    width: 17%;
+
+button,#search_icon{
+    width: 10%;
     text-transform: capitalize;
     font-size: larger;
-    background-color: #0F298B;
+    background-color: #2549D3;
     color: white;
-    padding: 12px 0px ;
+    padding: 10px 0px ;
     border-radius: 10px;
     border: none;
+}
+
+.button_learn{
+    float: left;
+    width: 17%;
+}
+
+#iconz{
+    color: #2549D3;
+    display: flex;
+    flex-direction: row;
+    word-spacing: 10px;
+    font-size: 50px;
+
+}
+#search_icon{
+    padding: 20px 20px;
+    width: 15%;
+    background-color: #2549D3;
+    color: ;
 }
 
 .button{
@@ -85,7 +209,87 @@ button{
     color: white;
     font-size: medium;
     border-radius: 10px;
-    border: none;
+    border:none;
+}
+
+
+.section1254{
+    float: right;
+    width: 50%;
+}
+
+/* using card to group */
+.section3img1cont_2{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.section3img1cont_2:hover{
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.container2{
+    box-shadow:;
+}
+
+.section3img1cont_1{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2) ;
+    transition: 0.3s;
+    width: 100%;
+    height: 50%;
+}
+.section3img1cont_1:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.container{
+    box-shadow:;
+
+}
+
+.sec5_1_img{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+}
+
+.sec5_1_img:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.places{
+    padding: ;
+}
+
+/* using card in sect5 image 2 */
+.sect5_2img{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 00.3s;
+    width: 100%;
+}
+.sect5_2img:hover{
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2) ;
+}
+
+.place_2{
+    padding: 2px 16px;
+}
+
+/* using card in sect5 image3 */
+
+.sect5_3img{
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2) ;
+    transition: 00.3s;
+    width: 100%;
+}
+.sec5_3img:hover{
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2) ;
+}
+.place_3{
+    padding: 2px 16px;
+}
+/* using card */
+
+
+.section_2{
+    align-items: center;
 }
 .section3_img{
     padding: 10px 20px;
@@ -93,7 +297,9 @@ button{
     display: flex;
     align-items: center;
 }
-    
+.lekki{
+    font-size: smaller;
+}
 
 .section5_info{
     text-align: center;
@@ -104,29 +310,49 @@ button{
     align-items: center;
 
 }
+/* section6 styles  ................................................................................. */
 
-.sec6header{
-    justify-content: center;
+.section6{
     display: flex;
-    flex-direction: row;
-    text-decoration: none;
+    flex-direction: column;
 
 }
+
+
+.sec6header{
+    text-align: center;
+
+}
+
+.button254{
+    float: right;
+    margin-bottom: 20%;
+}
+
+
+/* Customer reviews cards..................................................................................................... */
 .customer_review{
     display: flex;
     flex-direction: row;
+    
+}
+.alex{
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2) ;
+    transition: 00.3s;
+    width: 50%;
+}
+.alex:hover{
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2) ;
+}
+.country{
+    padding: 2px 16px;
 
 }
-.head1{
-    color: white;
-}
-.footer>h4{
-    color: white;
-}
-.footer_links{
+
+
+.footer li{
     list-style-type: none;
 }
-
 .footer{
     height: 60vh;
     background-color: #0F298B;
@@ -144,4 +370,7 @@ button{
 }
 .footerstart>h2{
     font-family: 'Oleo Script', cursive !important;
+}
+.footer h4{
+    color: white;
 }
