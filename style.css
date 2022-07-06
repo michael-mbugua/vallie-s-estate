@@ -198,7 +198,7 @@ button,#search_icon{
     padding: 20px 20px;
     width: 15%;
     background-color: #2549D3;
-    color: ;
+    
 }
 
 .button{
@@ -226,9 +226,7 @@ button,#search_icon{
 .section3img1cont_2:hover{
     box-shadow:0 8px 16px 0 rgba(0,0,0,0.2);
 }
-.container2{
-    box-shadow:;
-}
+
 
 .section3img1cont_1{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2) ;
@@ -239,10 +237,7 @@ button,#search_icon{
 .section3img1cont_1:hover{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
-.container{
-    box-shadow:;
 
-}
 
 .sec5_1_img{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -254,9 +249,6 @@ button,#search_icon{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.places{
-    padding: ;
-}
 
 /* using card in sect5 image 2 */
 .sect5_2img{
