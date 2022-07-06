@@ -349,7 +349,7 @@ button,#search_icon{
     height: 60vh;
     background-color: #0F298B;
     display: grid;
-
+    width: 100%;
     grid-template-columns: repeat(4, minmax(200px, 1fr));
     grid-gap:30px;
     color:white;
